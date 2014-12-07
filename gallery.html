@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dontae</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<style type="text/css">
+body {
+    background-color: #5FDBC0;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+.popover {
+    max-width: 1000px;
+}
+#blue{
+	background-image: url();
+
+}
+</style>
+
+<body>
+    <div class='row'>
+        <div  class='col-md-8'>
+        	<div id='blue'>
+        		<img src="img/white_+back.png">
+        		<img src="img/white_+back.png">
+        		<img src="img/white_+back.png">
+        		<img src="img/white_+back.png">
+        		
+        	</div>
+        </div>
+
+        <div class='col-md-4'>
+            <div class='row'>
+                <img class ='yea' src="img/model/9.jpg">
+                <img class ='yea' src="img/model/10.jpg">
+                <img class ='yea' src="img/model/6.jpeg">
+                <img class ='yea' src="img/model/4.jpg">
+                <img class ='yea' src="img/model/5.jpg">
+                <img class ='yea' src="img/model/6.jpeg">
+                <img class ='yea' src="img/model/7.jpg">
+                <img class ='yea' src="img/model/8.jpg">
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+$(document).ready(function() {
+    $('.yea').popover({
+        html: true,
+        trigger: 'hover',
+        placement: 'bottom',
+        content: function() {
+            return '<img class="yea" style="float:right;width:500px;max-width:500px;" src=" + $(this)[0].src + " />';
+        }
+    });
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
