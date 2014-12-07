@@ -19,7 +19,6 @@ body {
     background-attachment: fixed;
     background-color: white;
     background-repeat: repeat;
-    background-image: url(img/background_sm.png);
 }
 @media screen and (max-width: 768px) {
     h1 {
@@ -33,6 +32,8 @@ body {
 }
 .navbar {
     background-color: white;
+    color: black;
+    s
 }
 .stuff {
     margin-top: 3%;
@@ -83,16 +84,21 @@ h3 {
 }
 .thumbnail {
     background-color: white;
+    border: none;
 }
 #inspired {
     color: #777;
+}
+hr {
+    border-color: #5FDBC0;
+    border-width: 5px;
 }
 </style>
 
 <body>
 
     <div class='nav'>
-        <nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0;">
+        <nav class="navbar navbar-default " role="navigation" style="margin-bottom: 0;">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -109,8 +115,12 @@ h3 {
 
                         <li><a href="about.html">About</a>
                         </li>
-
                         <li class="divider"></li>
+
+                        <li><a href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="divider"></li>
+
                         <li><a href="shop.html">Shop</a>
                         </li>
                         <li class="divider"></li>
@@ -120,457 +130,476 @@ h3 {
             </div>
         </nav>
     </div>
-    <div class='stuff'>
-        <div class='stuf'>
-            <div class='container'>
-                <div class='row'>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/dontaesweat.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>DontaeSweat</h3>
-                                        <p>
-                                            #Black Sweatshirt
-                                            <br> #Dontae Logo
-                                        </p>
+    <div>
+        <div class='stuff'>
+            <div class='stuf'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/dontaesweat.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>DontaeSweat</h3>
+                                            <p>
+                                                #Black Sweatshirt
+                                                <br> #Dontae Logo
+                                            </p>
 
+                                        </div>
+
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/906732119346382/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
                                     </div>
 
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/906732119346382/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
+
+                                    <div class="clearfix"></div>
                                 </div>
-
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/miniPanda.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>MiniPanda</h3>
-                                        <p>
-                                            #Black Sweatshirt
-                                            <br> #MiniPanda
-                                        </p>
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/906761662676761/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/tangramRocket.png" alt="...">
-                            <div class="caption">
-
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>TangramRocket</h3>
-                                        <p>
-                                            #Black Sweatshirt
-                                            <br> #LikeARocket
-                                        </p>
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/906938225992438/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="clearfix"></div>
                             </div>
                         </div>
 
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/miniPanda.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>MiniPanda</h3>
+                                            <p>
+                                                #Black Sweatshirt
+                                                <br> #MiniPanda
+                                            </p>
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/906761662676761/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/tangramRocket.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>TangramRocket</h3>
+                                            <p>
+                                                #Black Sweatshirt
+                                                <br> #LikeARocket
+                                            </p>
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/906938225992438/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
+
+                    <div class='row'>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/NateShirt.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>LilNate</h3>
+                                            <p>
+                                                #Black Sweatshirt
+                                                <br> #LilNate
+                                            </p>
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/906988419320752/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/circles.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>Circles</h3>
+                                            <p>
+                                                #Black Sweatshirt
+                                                <br> #Circles
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907004125985848/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/ChillPill.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>ChillPill</h3>
+                                            <p>
+                                                #Black Sweatshirt
+                                                <br> #ChillPill
+                                            </p>
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907077615978499/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class='row'>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/paparazzi.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>Paparazzi</h3>
+                                            <p>
+                                                #Black Sweatshirt
+                                                <br> #paparazzi
+                                            </p>
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907112699308324/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/fireimp.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>FireImp</h3>
+                                            <p>
+                                                #Woman's T
+                                                <br> #FIREIMP
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907581159261478/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/Stripes.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>Stripes</h3>
+                                            <p>
+                                                #Men's T
+                                                <br> #Stripes
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907628375923423/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class='row'>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/LIFE.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>LIFE</h3>
+                                            <p>
+                                                #Sweatshirt
+                                                <br> #LIFE
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907746142578313/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/pop.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>POP</h3>
+                                            <p>
+                                                #Sweatshirt
+                                                <br> #POP
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907756529243941/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/much.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>Much</h3>
+                                            <p>
+                                                #Sweatshirt
+                                                <br> #Much
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/908749622477965/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class='row'>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/mom.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>MOM</h3>
+                                            <p>
+                                                #Sweatshirt
+                                                <br> #MOM <span id='inspired'>- inspired by my mom.</span>
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909177762435151/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/smoke.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>Smoke</h3>
+                                            <p>
+                                                #Sweatshirt
+                                                <br> #Smoke
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909179242435003/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/symbol.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>Symbol</h3>
+                                            <p>
+                                                #Sweatshirt
+                                                <br> #Symbol
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909178839101710/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class='row'>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/selfie.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>Selfie</h3>
+                                            <p>
+                                                #Swaetshirt
+                                                <br> #Selfie - <span id='inspired'>-inspired by my dad</span>
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909276452425282/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/bead.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>A Bead</h3>
+                                            <p>
+                                                #Sweatshirt
+                                                <br> #Bead
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909798645706396/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="img/newYear.png" alt="...">
+                                <div class="caption">
+                                    <hr>
+                                    <div class='row'>
+                                        <div class='col-sm-6'>
+                                            <h3>New Year</h3>
+                                            <p>
+                                                #Sweatshirt
+                                                <br> #NewYear
+                                            </p>
+
+                                        </div>
+                                        <div class='col-sm-6'>
+                                            <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909799432372984/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
-
-                <div class='row'>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/NateShirt.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>LilNate</h3>
-                                        <p>
-                                            #Black Sweatshirt
-                                            <br> #LilNate
-                                        </p>
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/906988419320752/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/circles.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>Circles</h3>
-                                        <p>
-                                            #Black Sweatshirt
-                                            <br> #Circles
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907004125985848/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/ChillPill.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>ChillPill</h3>
-                                        <p>
-                                            #Black Sweatshirt
-                                            <br> #ChillPill
-                                        </p>
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907077615978499/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class='row'>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/paparazzi.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>Paparazzi</h3>
-                                        <p>
-                                            #Black Sweatshirt
-                                            <br> #paparazzi
-                                        </p>
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907112699308324/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                    </div>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/fireimp.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>FireImp</h3>
-                                        <p>
-                                            #Woman's T
-                                            <br> #FIREIMP
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907581159261478/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/Stripes.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>Stripes</h3>
-                                        <p>
-                                            #Men's T
-                                            <br> #Stripes
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907628375923423/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-
-                                    </div>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class='row'>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/LIFE.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>LIFE</h3>
-                                        <p>
-                                            #Sweatshirt
-                                            <br> #LIFE
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907746142578313/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                    </div>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/pop.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>POP</h3>
-                                        <p>
-                                            #Sweatshirt
-                                            <br> #POP
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/907756529243941/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/much.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>Much</h3>
-                                        <p>
-                                            #Sweatshirt
-                                            <br> #Much
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/908749622477965/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-
-                                    </div>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class='row'>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/mom.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>MOM</h3>
-                                        <p>
-                                            #Sweatshirt
-                                            <br> #MOM <span id='inspired'>- inspired by my mom.</span>
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909177762435151/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                    </div>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/smoke.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>Smoke</h3>
-                                        <p>
-                                            #Sweatshirt
-                                            <br> #Smoke
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909179242435003/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/symbol.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>Symbol</h3>
-                                        <p>
-                                            #Sweatshirt
-                                            <br> #Symbol
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909178839101710/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-
-                                    </div>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class='row'>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/selfie.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>Selfie</h3>
-                                        <p>
-                                            #Swaetshirt
-                                            <br> #Selfie - <span id = 'inspired'>-inspired by my dad</span>
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909276452425282/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                    </div>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/bead.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>A Bead</h3>
-                                        <p>
-                                            #Sweatshirt
-                                            <br> #Bead
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909798645706396/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/newYear.png" alt="...">
-                            <div class="caption">
-                                <div class='row'>
-                                    <div class='col-sm-6'>
-                                        <h3>New Year</h3>
-                                        <p>
-                                            #Sweatshirt
-                                            <br> #NewYear
-                                        </p>
-
-                                    </div>
-                                    <div class='col-sm-6'>
-                                        <p><a href="https://www.facebook.com/dontaefashion/photos/a.906732189346375.1073741828.906728126013448/909799432372984/?type=1&theater" id="btnfund" class="btn btn-defualt pull-right" role="button"><span class='glyphicon glyphicon-ok'></span></a>
-
-                                    </div>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-            <!--
+                <!--
                 <div class='row'>
                     <div class="col-md-4">
                         <div class="thumbnail">
                             <img src="img/alt.png" alt="...">
                             <div class="caption">
+                                <hr>
                                 <div class='row'>
                                     <div class='col-sm-6'>
                                         <h3>DONTAE</h3>
@@ -594,6 +623,7 @@ h3 {
                         <div class="thumbnail">
                             <img src="img/alt.png" alt="...">
                             <div class="caption">
+                                <hr>
                                 <div class='row'>
                                     <div class='col-sm-6'>
                                         <h3>DONTAE</h3>
@@ -617,6 +647,7 @@ h3 {
                         <div class="thumbnail">
                             <img src="img/alt.png" alt="...">
                             <div class="caption">
+                                <hr>
                                 <div class='row'>
                                     <div class='col-sm-6'>
                                         <h3>DONTAE</h3>
@@ -641,9 +672,9 @@ h3 {
 
             </div>
         -->
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
