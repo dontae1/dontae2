@@ -11,12 +11,16 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <style type="text/css">
-body {} 
-img {
+body {} img {
     height: auto;
     width: 100%;
 }
-
+.popover {
+    max-width: 1000px;
+}
+#blue {
+    background-image: url();
+}
 .col-md-8 {
     padding-right: 0%;
 }
@@ -24,7 +28,9 @@ img {
     background-image: url(img/model/blur.png);
     height: 100%;
 }
-
+.yea {
+    height: 400px;
+}
 @font-face {
     font-family: myFirstFont;
     src: url(fonts/medio.otf);
@@ -32,7 +38,7 @@ img {
 .info {
     background-color: #5FDBC0;
     font-family: myFirstFont;
-    margin-top: 156.7%;
+    margin-top: 148%;
 }
 .space {
     margin-left: 2%;
@@ -45,9 +51,12 @@ img {
     color: black;
     font-size: 4em;
 }
+#stuff {
+    width: 80%;
+}
 </style>
 
-<body >
+<body onload="setTimeout('nextPic()',2000)">
     <div class='nav'>
         <nav class="navbar navbar-default " role="navigation" style="margin-bottom: 0;">
             <div class="container-fluid">
@@ -87,6 +96,9 @@ img {
             <div id='blue'>
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
+
+
+                    <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img src="img/model/10.jpg" alt="...">
@@ -138,12 +150,13 @@ img {
         </div>
 
         <div class='col-md-4'>
-            
+            <div class='row'>
+
                 <div class='info'>
                 </div>
                 <!--<img class='yea' src="img/model/9.jpg">
                 <img class='yea' src="img/model/10.jpg">-->
-            
+            </div>
         </div>
     </div>
 </body>
